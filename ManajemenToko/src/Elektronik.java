@@ -7,6 +7,6 @@ class Elektronik extends Produk {
     }
 
     String deskripsi(){
-        return getnama() + " - Rp" + getnama() + ", Garansi: " + garansi + " bulan";
+        return getnama() + " - Rp" + getHarga() + ", Garansi: " + garansi + " bulan";
     }
 }
