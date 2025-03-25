@@ -12,7 +12,7 @@ class BankPayment extends PaymentMethod implements FeeCalculator{
     public void processPayment() {
         System.out.println("Payment via Bank with transaction code: " + trancsactionCode);
         System.out.println("Total: " + diamondAmount + " diamond succesfully added.");
-        System.out.println("Amount paid: Rp" + totalCost);
+        System.out.println("Amount to pay: Rp" + totalCost);
     }
 
     @Override

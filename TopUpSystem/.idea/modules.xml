@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/TopUpSystem.iml" filepath="$PROJECT_DIR$/TopUpSystem.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MolenTopUpSystem.iml" filepath="$PROJECT_DIR$/MolenTopUpSystem.iml" />
     </modules>
   </component>
 </project>
