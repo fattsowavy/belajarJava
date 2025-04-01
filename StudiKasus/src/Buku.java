@@ -14,7 +14,7 @@ public class Buku extends Item{
     public void displayInfo() {
         super.displayInfo();
         System.out.println("Penulis : " + penulis);
-        System.out.println("Jumlah : " + jumlahHalaman);
+        System.out.println("Jumlah Halaman: " + jumlahHalaman);
         System.out.println("Genre : " + genre);
     }
 

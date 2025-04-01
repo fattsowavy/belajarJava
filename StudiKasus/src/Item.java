@@ -23,6 +23,10 @@ public class Item {
         System.out.println("ID: " + id);
         System.out.println("Judul: " + judul);
         System.out.println("Tahun Terbit: " + tahunTerbit);
-        System.out.println("Status: " + status);
+        if (status == true) {
+            System.out.println("Status :Buku Tersedia");
+        } else {
+            System.out.println("Status: Buku Sedang Dipinjam");
+        }
     }
 }
