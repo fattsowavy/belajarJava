@@ -35,7 +35,7 @@ abstract class Account {
     public abstract boolean withdraw(double amount);
 
     public void showInfo() {
-        System.out.println("Account number: " + accountNumber ", Owner: " + owner.getName() + ", Saldo: $" + balance);
+        System.out.println("Account number: " + accountNumber + ", Owner: " + owner.getName() + ", Saldo: $" + balance);
 
     }
 }
