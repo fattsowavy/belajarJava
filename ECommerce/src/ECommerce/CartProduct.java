@@ -7,14 +7,16 @@ public class CartProduct extends Product{
 
     private int quantity;
     private LocalDateTime timeAdded;
+    private OrderStatus itemStatus;
 
     public CartProduct(){
         timeAdded = LocalDateTime.now();
     }
 
-    public CartProduct(int quantity, LocalDateTime timeAdded) {
+    public CartProduct(int quantity, LocalDateTime timeAdded, OrderStatus itemStatus) {
         this.quantity = quantity;
         this.timeAdded = timeAdded;
+        this.itemStatus = itemStatus;
     }
 
     public int getQuantity() {
@@ -43,5 +45,13 @@ public class CartProduct extends Product{
 
     public boolean canAddToCart() {
         return getStockQuantity() >= getQuantity();
+    }
+
+    public OrderStatus getItemStatus() {
+        return itemStatus;
+    }
+
+    public void setItemStatus(OrderStatus itemStatus) {
+        this.itemStatus = itemStatus;
     }
 }
